@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: inline-block;
+    background-image: url('images/img1.jpg');
+    width: 100vw;
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 320px);
+    grid-template-rows: 190px;
+    gap: 20px;
+    justify-content: center;
+}
+
+.grid-container>* {
+    background-color: #fff;
+    border: 2px solid pink;
+    margin-top: -75%;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px grey;
+}
+
+.top {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 45%;
+}
+
+.top1 {
+    background-image: url('images/img2.jpg');
+}
+
+.top2 {
+    background-image: url('images/img5.jpg');
+}
+
+.top3 {
+    background-image: url('images/img3.jpg');
+}
+
+h2 {
+    text-align: center;
+    padding-top: 8%;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+
+    font-size: 12px;
+    padding-top: 8%;
+}
+
+button {
+    margin-top: 10%;
+    margin-left: 27%;
+    cursor: pointer;
+}
+
+button p {
+    padding: 10px 15px;
+    background-color: salmon;
+    border: 2px solid blue;
+    border-radius: 3px;
+    color: white;
+    font-size: 20px;
+}
+
+.nav {
+    display: inline-block;
+    width: 90vw;
+    height: 15vh;
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 12%;
+    /* background-color: lightgreen; */
+    text-align: center;
+}
+
+.nav ul {
+    justify-content: flex-end;
+}
+
+.nav li {
+    display: inline-block;
+    margin: 2.5% 1.3%;
+
+}
+
+.nav li p {
+    font-size: 23px;
+    color: white;
+    font-weight: 500;
+    padding: 5% 3%;
+    font-family: 'ubuntu', sans-serif;
+}
+
+h3 {
+    border: 2px solid white;
+    padding: 5px 10px;
+    color: white;
+    font-family: 'ubuntu', sans-serif;
+}
+
+.logo {
+    background-image: url('images/logo.jpg');
+    width: 10vw;
+    height: 15vh;
+    background-size: cover;
+    box-shadow: inset 0px 0px 15px gray;
+    border-radius: 60%;
+    align-items: left;
+
+}
